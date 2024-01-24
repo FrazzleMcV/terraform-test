@@ -11,3 +11,6 @@ Retrospectivley they would have been as part of the terraform config as this wou
 
 In terms of refactoring or productionisng the first steps would be to proeprly set up the AWS enviroment to ensure much greater levels of security. This would include VPCs and much more fine grained IAM permissions.
 Further to this as the terraform was based on examples the naming convention is inconsistent and requires much rework to allow for greater readbility.
+
+
+As a final note there was a CORs issue between thr web and lambda that i could not resolve. Unfortunately this is still in at the time being as time was drawing near on getting this finished.
