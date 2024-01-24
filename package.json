@@ -1,0 +1,16 @@
+{
+  "name": "terraform-experiemtn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "lerna run start",
+    "test": "lerna run test",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^8.0.2",
+    "serverless": "3.38.0"
+  }
+}

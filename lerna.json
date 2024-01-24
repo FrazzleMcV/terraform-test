@@ -1,0 +1,25 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.0.0",
+  "npmClient": "npm",
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "**/__tests__/**",
+        "**/__mocks__/**",
+        "**/test/**",
+        "**/spec/**"
+      ],
+      "message": "chore(release): publish",
+      "registry": "https://registry.npmjs.org/"
+    },
+    "bootstrap": {
+      "ignore": "component-*",
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    }
+  }
+}
